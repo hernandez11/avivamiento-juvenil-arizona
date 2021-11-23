@@ -1,0 +1,51 @@
+.home__banner{
+    width: 100%;
+    margin: 55px 0;
+    background-color: #0D1321;
+    color: #fff;
+}
+
+.home__banner>p{
+    font-family: 'Pridi', serif;
+    text-align: center;
+    font-weight: 500;
+    margin: auto;
+    font-size: 2.5rem;
+    width: 70%;
+    padding: 5% 50px;
+}
+
+.home__events{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.home__events>img{
+width: 90%;
+max-width: 500px;
+border-radius: 10%;
+margin: 25px 0;
+}
+
+.home__events>h1{
+    font-size: 2rem;
+}
+
+.event__registerButton{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 2px solid red;
+    padding: 5px 15px;
+}
+
+.event__registerButton:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .home__banner>p{
+        font-size: 2rem;
+    }
+}

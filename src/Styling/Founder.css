@@ -1,0 +1,24 @@
+.founder__img{
+    width: 40%;
+    min-width: 300px;
+}
+
+.founder__bio{
+    width: 70%;
+    text-align: left;
+    margin: 5% auto;
+}
+
+.founder__bio>p{
+    font-family: 'Pridi', serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 3%;
+}
+
+@media screen and (max-width: 768px) {
+    .founder__bio{
+        text-align: center;
+    }
+}
