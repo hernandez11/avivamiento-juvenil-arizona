@@ -38,7 +38,18 @@ function Event() {
                 <br/>Ayudando a la generación juvenil a descubrir el propósito de Dios para sus vidas. Y activando alma y espíritu por medio del Espíritu Santo.</p>
             </div>
             <Principles />
-
+            <div className="event_pictures">
+                <ul>
+                    <li class="event_pic1"><div class="bg"></div></li>
+                    <li class="event_pic2"><div class="bg"></div></li>
+                    <li class="event_pic3"><div class="bg"></div></li>
+                    <li class="event_pic4"><div class="bg"></div></li>
+                    <li class="event_pic5"><div class="bg"></div></li>
+                    <li class="event_pic6"><div class="bg"></div></li>
+                    <li class="event_pic7"><div class="bg"></div></li>
+                </ul>
+            </div>
+                {/* Event pictures */}
             <h1 className='section__title'>EVENT SCHEDULE</h1>
             <div className='event__schedule'>
                 <ul className='event__schedule__list'>
