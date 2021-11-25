@@ -47,6 +47,7 @@ function Event() {
                     <li class="event_pic5"><div class="bg"></div></li>
                     <li class="event_pic6"><div class="bg"></div></li>
                     <li class="event_pic7"><div class="bg"></div></li>
+                    <li class="event_pic8"><div class="bg"></div></li>
                 </ul>
             </div>
                 {/* Event pictures */}

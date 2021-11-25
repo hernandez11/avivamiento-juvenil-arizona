@@ -183,6 +183,11 @@
     transition: .5s;
     overflow: hidden;
     margin: -25px;
+    opacity: 0.7;
+}
+
+.event_pictures ul li:hover {
+    opacity: 1;
 }
 
 ul li.event_pic1 {
@@ -218,6 +223,12 @@ ul li.event_pic6 {
 ul li.event_pic7 {
     top: 0;
     left: 150%;
+}
+
+ul li.event_pic8 {
+    top: 0;
+    left: 100%;
+    visibility: hidden;
 }
 
 ul li .bg {
@@ -275,6 +286,13 @@ ul li.event_pic7 .bg {
     margin-top: 10px;
 }
 
+ul li.event_pic8 .bg {
+    background: url(/src/Assets/event1_images/asset_JX0A2914.JPG);
+    background-size: cover;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 768px) {
     .ticket__button {
         font-size: 5vw;
@@ -287,5 +305,31 @@ ul li.event_pic7 .bg {
 
     .event_missionSect>p {
         font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    ul li.event_pic7 {
+        top: 100%;
+        left: 0;
+    }
+
+    ul li.event_pic6 {
+        left: 50%;
+        top: 100%;
+    }
+
+    ul li.event_pic5 {
+        left: 100%;
+        top: 100%;
+    }
+
+    ul li.event_pic8 {
+        visibility: visible;
+    }
+
+    .event_pictures {
+        margin-bottom: 400px;
+        margin-left: 250px;
     }
 }
