@@ -38,18 +38,75 @@ function Event() {
                 <br/>Ayudando a la generación juvenil a descubrir el propósito de Dios para sus vidas. Y activando alma y espíritu por medio del Espíritu Santo.</p>
             </div>
             <Principles />
-            <div className="event_pictures">
+            <div className="event_pictures row_1">
                 <ul>
-                    <li class="event_pic1"><div class="bg"></div></li>
-                    <li class="event_pic2"><div class="bg"></div></li>
-                    <li class="event_pic3"><div class="bg"></div></li>
-                    <li class="event_pic4"><div class="bg"></div></li>
-                    <li class="event_pic5"><div class="bg"></div></li>
-                    <li class="event_pic6"><div class="bg"></div></li>
-                    <li class="event_pic7"><div class="bg"></div></li>
-                    <li class="event_pic8"><div class="bg"></div></li>
+                    <li class="event_image1"><div class="bg"></div></li>
+                    <li class="event_image2"><div class="bg"></div></li>
+                    <li class="event_image3"><div class="bg"></div></li>
+                    <li class="event_image4"><div class="bg"></div></li>
+                    <li class="event_image5"><div class="bg"></div></li>
+                    <li class="event_image6"><div class="bg"></div></li>
+                    <li class="event_image7"><div class="bg"></div></li>
+                    <li class="event_image8"><div class="bg"></div></li>
                 </ul>
             </div>
+            <div className="event_pictures row_2">
+                <ul>
+                    <li class="event_image9"><div class="bg"></div></li>
+                    <li class="event_image10"><div class="bg"></div></li>
+                    <li class="event_image11"><div class="bg"></div></li>
+                    <li class="event_image12"><div class="bg"></div></li>
+                    <li class="event_image13"><div class="bg"></div></li>
+                    <li class="event_image14"><div class="bg"></div></li>
+                    <li class="event_image15"><div class="bg"></div></li>
+                    <li class="event_image16"><div class="bg"></div></li>
+                </ul>
+            </div>
+            <div className="event_pictures row_3">
+                <ul>
+                    <li class="event_image17"><div class="bg"></div></li>
+                    <li class="event_image18"><div class="bg"></div></li>
+                    <li class="event_image19"><div class="bg"></div></li>
+                    <li class="event_image20"><div class="bg"></div></li>
+                    <li class="event_image21"><div class="bg"></div></li>
+                    <li class="event_image22"><div class="bg"></div></li>
+                    <li class="event_image23"><div class="bg"></div></li>
+                    <li class="event_image24"><div class="bg"></div></li>
+                </ul>
+            </div>
+            <div className="event_pictures row_4">
+                <ul>
+                    <li class="event_image25"><div class="bg"></div></li>
+                    <li class="event_image26"><div class="bg"></div></li>
+                    <li class="event_image27"><div class="bg"></div></li>
+                    <li class="event_image28"><div class="bg"></div></li>
+                    <li class="event_image29"><div class="bg"></div></li>
+                    <li class="event_image30"><div class="bg"></div></li>
+                    <li class="event_image31"><div class="bg"></div></li>
+                    <li class="event_image32"><div class="bg"></div></li>
+                </ul>
+            </div>
+            <div className="event_pictures row_5">
+                <ul>
+                    <li class="event_image33"><div class="bg"></div></li>
+                    <li class="event_image34"><div class="bg"></div></li>
+                    <li class="event_image35"><div class="bg"></div></li>
+                    <li class="event_image36"><div class="bg"></div></li>
+                    <li class="event_image37"><div class="bg"></div></li>
+                    <li class="event_image38"><div class="bg"></div></li>
+                    <li class="event_image39"><div class="bg"></div></li>
+                    <li class="event_image40"><div class="bg"></div></li>
+                </ul>
+            </div>
+            <div className="event_pictures row_6">
+                <ul>
+                    <li class="event_image41"><div class="bg"></div></li>
+                    <li class="event_image42"><div class="bg"></div></li>
+                    <li class="event_image43"><div class="bg"></div></li>
+                    <li class="event_image44"><div class="bg"></div></li>
+                </ul>
+            </div>
+
                 {/* Event pictures */}
             <h1 className='section__title'>EVENT SCHEDULE</h1>
             <div className='event__schedule'>
