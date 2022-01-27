@@ -10,15 +10,21 @@
 }
 
 .founder__bio>p{
-    font-family: 'Pridi', serif;
+    font-family: 'Ubuntu Mono', monospace;
     color: #000;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 3%;
 }
 
 @media screen and (max-width: 768px) {
     .founder__bio{
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .founder__bio{
+        width: 90%;
     }
 }

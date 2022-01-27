@@ -4,20 +4,24 @@ export const Subheader__text = styled.p`
     color: #000;
     font-weight: 500;
     font-size: 1rem;
-    // padding: 0 20px;
-    // white-space: nowrap;
+    @media (max-width: 480px) {
+        font-size: 0.8rem;
+    }
 `;
 
 export const Hero__title = styled.h1`
     color: #000;
+    font-family: Source Code Pro;
     font-weight: 800;
-    font-size: 12vw;
-    // word-break: break-all
-    margin-bottom: 50px;
-    margin-top: 15px;
+    font-size: 9vw;
+    margin: 5% 0;
 
     @media (max-width: 768px) {
-        font-size: 14vw;
+        font-size: 12vw;
+        margin: 10% 5%;
+    }
+    @media (max-width: 480px) {
+        font-size: 15vw;
     }
 `;
 
@@ -52,13 +56,14 @@ export const Principle__itemT = styled.span`
 `;
 
 export const Item__num = styled.h1`
+    font-family: 'K2D', sans-serif;
     font-size: 5rem;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0 0;
-    `;
+`;
 
 export const Item__key = styled.p`
-    font-family: 'Pridi', serif;
+    font-family: 'Ubuntu Mono', monospace;
     margin: 10px 0;
     font-size: 1.3rem;
     font-weight: 700;
@@ -68,5 +73,5 @@ export const Item__key = styled.p`
 export const Principle__itemB = styled.p`
     text-align: left;
     font-weight: 300;
-    font-family: 'Pridi', serif;
+    font-family: 'Ubuntu Mono', monospace;
 `;

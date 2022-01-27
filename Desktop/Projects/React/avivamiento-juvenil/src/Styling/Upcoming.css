@@ -1,0 +1,49 @@
+.upcoming{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__description{
+    width: 30%;
+    font-size: 1rem;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.line{
+    border-bottom: 3px solid rgba(0, 0, 0, 0.65);
+    width: 20%;
+    margin: 20px 0;
+}
+
+.uEvent__container{
+    width: 55%;
+    text-align: start;
+    font-family: 'Ubuntu Mono', monospace;
+    letter-spacing: 0.3rem;
+    margin: 12%;
+}
+
+.uEvent__title{
+    font-size: 1.5rem;
+    padding: 25px 0;
+}
+
+.uEvent__description{
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hero__description{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero__description{
+        width: 75%;
+    }
+}
+

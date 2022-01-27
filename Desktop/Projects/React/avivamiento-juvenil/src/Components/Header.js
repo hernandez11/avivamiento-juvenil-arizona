@@ -31,23 +31,23 @@ function Header() {
                     <ul className={click ? 'header__menu__active':'header__menu__inactive'}>
                         <li className='menu__item'>
                             <NavLink exact to="/" activeClassName="active" className="header__links" onClick={() => setClick (false)}>
-                                Home
+                                HOME
                             </NavLink>
                         </li>
                         <li className='menu__item'>
-                            <NavLink exact to="/event" activeClassName="active" className="header__links" onClick={() => setClick (false)}>
-                                Event
+                            <NavLink exact to="/Upcoming-Events" activeClassName="active" className="header__links" onClick={() => setClick (false)}>
+                                UPCOMING EVENTS
                             </NavLink>
                         </li>
                         <li className='menu__item'>
-                            <NavLink exact to="/about-the-founder" activeClassName="active" className="header__links" onClick={() => setClick (false)}>
-                                About The Founder
+                            <NavLink exact to="/Past-Events" activeClassName="active" className="header__links" onClick={() => setClick (false)}>
+                                PAST EVENTS
                             </NavLink>
                         </li>
                         <li className='menu__item'>
-                            <a href='https://www.eventbrite.com/e/181349680777?aff=efbneb' target="_blank" rel="noopener noreferrer" activeClassName="active" className="header__links" onClick={() => setClick (false)}>
-                                Register
-                            </a>
+                            <NavLink exact to="/Meet-The-Founder" activeClassName="active" className="header__links" onClick={() => setClick (false)}>
+                                MEET THE FOUNDER
+                            </NavLink>
                         </li>
                     </ul>
                 </div>

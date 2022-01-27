@@ -5,7 +5,7 @@ import { Subheader__text, Hero__title } from '../Components/StyledText';
 function Founder() {
     return (
         <div className='founder'>
-            <Hero__title>MEET THE FOUNDER</Hero__title>
+            <Hero__title>MEET<br />THE FOUNDER</Hero__title>
             
             <div className='founder__images'>
                 <img className='founder__img'

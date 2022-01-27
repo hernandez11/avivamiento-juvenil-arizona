@@ -13,7 +13,8 @@
 }
 
 .hero__subheader{
-    width: 50%;
+    width: 70%;
+    font-family: 'Ubuntu Mono', monospace;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -156,6 +157,11 @@
     color: #fff;
 }
 
+
+/* EVENT IMAGES CSS CODE FROM FRANKIE */
+
+/*  */
+
 @media screen and (max-width: 768px) {
     .ticket__button{
         font-size: 5vw;
@@ -168,3 +174,9 @@
         font-size: 2rem;
     }
   }
+
+  @media screen and (max-width: 480px) {
+  .hero__subheader{
+    width: 100%;
+  }
+}

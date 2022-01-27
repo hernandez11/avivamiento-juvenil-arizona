@@ -6,6 +6,8 @@ import ScrollToTop from './Components/ScrollToTop';
 import Home from './Pages/Home';
 import Event from './Pages/Event';
 import Founder from './Pages/Founder';
+import PastEvents from './Pages/PastEvents';
+import Upcoming from './Pages/Upcoming';
 
 function App() {
   return (
@@ -18,10 +20,16 @@ function App() {
           <Route exact path='/'>
             <Home />
           </Route>
-          <Route path='/event'>
+          <Route exact path='/Past-Events'>
+            <PastEvents />
+          </Route>
+          <Route exact path='/Upcoming-Events'>
+            <Upcoming />
+          </Route>
+          <Route path='/events/AYR-11-2021'>
             <Event />
           </Route>
-          <Route path='/about-the-founder'>
+          <Route path='/Meet-The-Founder'>
             <Founder />
           </Route>
         </Switch>

@@ -3,19 +3,72 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
     background-color: #000;
 }
 
-.footer_infoItems{
+.footer__content__container{
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
+    padding: 25px 0;
 }
 
-.info__item{
-    margin: 5% 0;
-    min-width: 25%
+.footer__start{
+    flex-grow: 0;
+    /* background-color: salmon; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__logo__img{
+    width: 50px;
+    height: auto;
+}
+
+.footer__title{
+    font-size: 1rem;
+    text-align: start;
+    padding-left: 5px;
+}
+
+.nav__wrapper{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: darkgreen; */
+    padding-left: 0;
+}
+
+.nav__item{
+    list-style:none;
+    padding-left:0;
+}
+
+.footer__link{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 0px;
+}
+
+.social__icon{
+    width: 25px;
+    padding: 0 15px;
+}
+
+.socialIcon__container{
+    flex-grow: 0;
+    display: flex;
+    /* background-color: darkcyan; */
+}
+
+.footer__copyright{
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 200;
+    margin-bottom: 15px;
 }
 
 .info__item>h3{
@@ -35,12 +88,6 @@
     align-items: center;
 }
 
-.social__icon{
-    margin-top: 10px;
-    width: 35px;
-    height: 35px;
-}
-
 .info__item>button{
     font-size: 1.75rem;
     font-weight: 700;
@@ -53,27 +100,6 @@
 
 .info__item>button:hover{
     cursor: pointer;
-}
-
-.footer__lower{
-    text-decoration: none;
-    color: #fff;
-}
-
-.lower__logo__img{
-    width: 15%;
-    min-width: 150px;
-}
-
-.lower__title{
-    margin: 50px 0;
-    font-size: 1.5rem;
-}
-
-.footer__copyright{
-    font-size: 0.75rem;
-    font-weight: 200;
-    margin-bottom: 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -90,4 +116,25 @@
     .info__Item__social{
         width: 50%;
     }
+    .social__icon{
+        padding: 10px 15px;
+    }
+    .socialIcon__container{
+        flex-direction: column;
+    }
   }
+
+
+@media only screen and (max-width: 480px){
+    .footer__content__container{
+        flex-direction: column;
+    }
+    .nav__wrapper{
+        width: 100%;
+        margin: 10% 0;
+        /* background-color: darkgreen; */
+    }
+    .socialIcon__container{
+        flex-direction: row;
+    }
+}

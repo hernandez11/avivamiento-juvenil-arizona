@@ -1,0 +1,50 @@
+.eventBox__container{
+    /* background-color: cadetblue; */
+    width: 100%;
+    padding: 5% 0;
+}
+
+.eventBox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 450px;
+    height: 300px;
+    border-radius: 50px;
+    margin: auto;
+    padding: 0 5%;
+    font-size: 1.1rem;
+    letter-spacing: 0.15em;
+    text-align: start;
+    box-shadow:  18px 18px 36px #a5a5a5,
+             -18px -18px 36px #ffffff;
+}
+
+.eventBox__date{
+    text-align: center !important;
+}
+
+.eventBox__title{
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px){
+    .eventBox{
+        width: 400px;
+        font-size: 1rem;
+    }
+    .eventBox__title{
+        font-size: 1.3rem;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    .eventBox{
+        width: 80%;
+        font-size: 0.9rem;
+    }
+    .eventBox__title{
+        font-size: 1.1rem;
+    }
+}
