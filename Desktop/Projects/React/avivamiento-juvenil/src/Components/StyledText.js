@@ -4,7 +4,7 @@ export const Subheader__text = styled.p`
     color: #000;
     font-weight: 500;
     font-size: 1rem;
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
         font-size: 0.8rem;
     }
 `;
@@ -18,10 +18,7 @@ export const Hero__title = styled.h1`
 
     @media (max-width: 768px) {
         font-size: 12vw;
-        margin: 10% 5%;
-    }
-    @media (max-width: 480px) {
-        font-size: 15vw;
+        margin: 10% 0;
     }
 `;
 

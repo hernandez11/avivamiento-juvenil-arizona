@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styling/Home.css';
-import { Subheader__text, Hero__title } from '../Components/StyledText';
+import { Subheader__text, Hero__title, hero__banner__text } from '../Components/StyledText';
 import Principles from '../Components/Principles';
 import ActionBanner from '../Components/ActionBanner.js';
 
@@ -16,12 +16,18 @@ function Home() {
                 
                 <img className='subHeroImage' src='./ImageAssets/testimage00.jpg' alt='' />
 
-                <div className='home__banner'>
+                <div className='hero__banner'>
                     <p>Helping young people discover their purpose on earth, and to have their lives quickend and directed by the Holy Spirit.</p>
                     {/* <br/>Ayudando a la generación juvenil a descubrir el propósito de Dios para sus vidas. Y activando alma y espíritu por medio del Espíritu Santo.</p> */}
                     <h2>VISIT US</h2>
-                    {/* Make the button used in the ActionBanner reusable and add here! */}
-                    <a href='/Upcoming-Events'><button className='home__banner__Button'>Upcoming Events</button></a>
+                    <a href='/Upcoming-Events'>
+                    <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="home__button__text">UPCOMING EVENTS</span>
+                    </button>
+                    </a>
                 </div>
                 <Principles />
                 <ActionBanner title='VISIT US' buttonText='UPCOMING EVENTS' toLink='/Upcoming-Events'/>

@@ -8,7 +8,7 @@
              -18px -18px 36px #ffffff;
 }
 
-.home__banner{
+.hero__banner{
     width: 100%;
     margin: 55px 0;
     padding: 4% 0;
@@ -18,28 +18,35 @@
     text-align: center;
 }
 
-.home__banner>p{
+.hero__banner>p{
     margin: auto;
     font-size: 1.3rem;
     width: 60%;
-    padding-bottom: 3%;
 }
-.home__banner>h2{
+.hero__banner>h2{
     font-size: 2.5rem;
     margin-bottom: 20px;
+    padding-top: 3%;
     letter-spacing: 0.1em;
 }
 
-.home__banner__Button{
-    background-color: #000;
-    color: #fff;
-    border-color: transparent;
-    padding: 10px 15px;
-    border-radius: 50px;
+button.learn-more .home__button__text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #000;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
 }
 
-.home__banner__Button:hover{
-    cursor: pointer;
+button:hover .home__button__text {
+    color: #fff;
 }
 
 .home__description{
@@ -52,8 +59,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .home__banner>p{
+    .hero__banner>p{
         width: 90%;
+        font-size: 1rem;
     }
     .subHeroImage{
         width: 90vw;
@@ -69,5 +77,8 @@
     .home__description{
         width: 90%;
         margin: 25% auto;
+    }
+    button.learn-more .home__button__text {
+        color: #fff;
     }
 }

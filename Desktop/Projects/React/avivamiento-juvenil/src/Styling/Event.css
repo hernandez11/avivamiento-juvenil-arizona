@@ -23,160 +23,113 @@
     text-align: center;
 }
 
-.register__button{
-    border: 1px solid #000;
-    background-color: transparent;
-    width: 150px;
-    height: 50px;
-    color: #000;
-    font-size: larger;
-    font-weight: 500;
-    margin-top: 50px;
-}
-
-.register__button:hover{
-    cursor: pointer;
-}
-
-.event_promoVideo{
-    margin: 50px auto;
-    width: 65%;
-}
-
-.event_missionSect{
+.icon__container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     flex-wrap: wrap;
-    margin: auto;
-    background-color: #0D1321;
-    width: 95%;
-    min-height: 350px;
-}
-
-.event_missionSect >p{
-    font-family: 'Pridi', serif;
-    color: #fff;
-    font-size: 4rem;
-    font-weight: 00;
-    padding: 0 20px;
-}
-
-.section__title{
-    font-size: 2rem;
-    margin-bottom: 3%;
-}
-
-.event__schedule{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    padding: 0 50px;
-    width: 50%;
-    border: 2px solid #000;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
 }
 
-.list__item{
-    font-size: 1.5rem;
-    font-weight: 300;
-    text-align: start;
-    margin: 60px 0;
+.icon__wrapper{
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;
 }
 
-.list__item>small{
+.event__icon{
+    width: 40px;
+    height: auto;
+}
+
+.event__icon__title{
+    font-family: 'Ubuntu Mono', monospace;
+    letter-spacing: 5px;
+    font-size: 0.9rem;
     padding-left: 10px;
-    font-size: .8rem;
-    font-weight: 600;
 }
 
-.event__itin{
+.event__wrapper{
     position: relative;
+    /* temporary until you add the gallery! */
+    margin: 10% 0;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    color: #fff;
-    width: 100%;
-    height: 300px;
-    margin:5% 0;
-    background-color: navajowhite;
-
-    background-image: URL('../Assets/event_itin_img.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
-.event__itin_col{
+.event__container{
+    width: 40%;
+    max-width: 500px;
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
-    text-align: center;
-    width: 100%;
-    height: 100%;
+    align-items: center;
+    text-align: start;
 }
 
 .event__guest__img{
     height: 35vw;
     min-height: 250px;
+    max-height: 400px;
     border-radius: 20px;
 }
 
-.event__guest>h2{
-    font-size: 1.75rem;
+.event__container>h2{
+    font-size: 2rem;
 }
 
-.event__guest>h2>small{
-    font-size: 1rem;
-    font-weight: 300;
-}
-
-.event__ticket_reg{
-    position: relative;
-    display: inline-block;
-    margin: 5% auto;
-}
-
-.event__ticket_reg>img{
-    display: block;
+.event__container>p{
+    padding: 5% 0;
+    margin-top: 10%;
     width: 100%;
-}
-.ticket__button{
-    position: absolute;
-    bottom: 3%;
-    right: 10%;
-    font-size: 2.5rem;
-    font-weight: 600;
-    border: transparent;
-    border-bottom: 3px solid red;
-    background-color: transparent;
-    color: #fff;
+    font-size: 1rem;
 }
 
+small{
+    font-size: 0.8rem;
+}
 
-/* EVENT IMAGES CSS CODE FROM FRANKIE */
-
-/*  */
+.event__main__img{
+    position: inherit;
+    width: 130%;
+    height: auto;
+}
 
 @media screen and (max-width: 768px) {
-    .ticket__button{
-        font-size: 5vw;
+    .event__hero>p{
+        width: 70%;
+        font-size: 1.1rem;
+        flex-wrap: wrap;
     }
-    .event_promoVideo{
-        width: 90%;
-        max-height: 360px;
+    .event__main__img{
+        width: 120%;
     }
-    .event_missionSect >p{
-        font-size: 2rem;
+    .hero__subheader{
+        width: 80%;
     }
   }
 
   @media screen and (max-width: 480px) {
-  .hero__subheader{
-    width: 100%;
+    .hero__subheader{
+        width: 90%;
+    }
+    .event__icon{
+        width: 30px;
+        height: auto;
+    }
+    .event__icon__title{
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+    }
+    .event__wrapper{
+        flex-direction: column;
+    }
+    .event__container{
+        width: 80%;
+        margin: 10% 0;
+    }
+    .event__main__img{
+        margin-top: -20%;
+    }
   }
-}

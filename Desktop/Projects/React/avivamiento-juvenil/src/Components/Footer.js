@@ -33,13 +33,13 @@ function Footer() {
                 {/* END SOCIAL LINKS */}
                 <span className='socialIcon__container'>
                     <a href="mailto:Arizonayouthrevivalministry@gmail.com">
-                        <img className='social__icon' src='./ImageAssets/gmail.png' alt='' />
+                        <img className='social__icon' src='../ImageAssets/gmail.png' alt='email' />
                     </a>
                     <a href='https://www.instagram.com/arizonayouthrevival/' target="_blank" rel="noopener noreferrer">
-                        <img className='social__icon' src='./ImageAssets/instagram.png' alt='' />
+                        <img className='social__icon' src='../ImageAssets/instagram.png' alt='instagram' />
                     </a>
                     <a href='https://www.facebook.com/profile.php?id=100073055589001' target="_blank" rel="noopener noreferrer">
-                        <img className='social__icon' src='./ImageAssets/facebook.png' alt='' />
+                        <img className='social__icon' src='../ImageAssets/facebook.png' alt='email' />
                     </a>
                 </span>
             </div>

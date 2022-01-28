@@ -15,10 +15,24 @@ function Upcoming() {
             <p className='hero__description'>Bringing many together to worship and get to know the creator of all things.</p>
            
            <div className='uEvent__container'>
-               {/* line */}
                <hr className='line'/>
-               <h4 className='uEvent__title'>AZ YOUTH REVIVAL 2022</h4>
-               <h2 className='uEvent__description'>COMING SOON...</h2>
+               <h4 className='uEvent__title'>AZ YOUTH REVIVAL - 02.19.2022</h4>
+               <h2 className='uEvent__description'>DETAILS COMING SOON...</h2>
+           </div>
+           <div className='uEvent__container'>
+               <hr className='line'/>
+               <h4 className='uEvent__title'>AZ YOUTH REVIVAL - 03.19.2022</h4>
+               <h2 className='uEvent__description'>DETAILS COMING SOON...</h2>
+           </div>
+           <div className='uEvent__container'>
+               <hr className='line'/>
+               <h4 className='uEvent__title'>AZ YOUTH REVIVAL - 04.16.2022</h4>
+               <h2 className='uEvent__description'>DETAILS COMING SOON...</h2>
+           </div>
+           <div className='uEvent__container'>
+               <hr className='line'/>
+               <h4 className='uEvent__title'>AZ YOUTH REVIVAL - 05.21.2022</h4>
+               <h2 className='uEvent__description'>DETAILS COMING SOON...</h2>
            </div>
 
             <ActionBanner title='VIEW PAST EVENTS' buttonText='PAST EVENTS' toLink='/Past-Events'/>

@@ -17,12 +17,6 @@
     padding: 3%;
 }
 
-@media screen and (max-width: 768px) {
-    .founder__bio{
-        text-align: center;
-    }
-}
-
 @media only screen and (max-width: 480px){
     .founder__bio{
         width: 90%;
