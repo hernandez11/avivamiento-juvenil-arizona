@@ -21,11 +21,11 @@ function Home() {
                     {/* <br/>Ayudando a la generación juvenil a descubrir el propósito de Dios para sus vidas. Y activando alma y espíritu por medio del Espíritu Santo.</p> */}
                     <h2>VISIT US</h2>
                     <a href='/Upcoming-Events'>
-                    <button class="learn-more">
-                        <span class="circle" aria-hidden="true">
-                        <span class="icon arrow"></span>
+                    <button className="learn-more">
+                        <span className="circle" aria-hidden="true">
+                        <span className="icon arrow"></span>
                         </span>
-                        <span class="home__button__text">UPCOMING EVENTS</span>
+                        <span className="home__button__text">UPCOMING EVENTS</span>
                     </button>
                     </a>
                 </div>

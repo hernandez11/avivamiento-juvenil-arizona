@@ -14,12 +14,25 @@ function Header() {
             <nav className="header__navbar" id={click ? 'menuClicked':''}>
                 <div className='header__navbar__top'>
                     <NavLink exact to="/" className="header__logo">
-                        <img className='header__logo'
-                        src='../ImageAssets/logo__main.png'
-                        alt='' />
+                        <img className='header__logo' src='../ImageAssets/logo__main.png' alt='' />
                     </NavLink>
 
-                    <div onClick = {handleClick} className='header__icon'>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLScd9OOgzy0j0ovVCecL15abD_MNSUKvXSz747w3P3l3DqRllw/viewform' target="_blank" rel="noopener noreferrer" className='header__links'>
+                        <button className="learn-more">
+                            <span className="circle" aria-hidden="true">
+                            <span className="icon arrow"></span>
+                            </span>
+                            <span className="header__button__text">VOLUNTEER</span>
+                        </button>
+                        {/* <button className="learn-more">
+                            <span className="circle" aria-hidden="true">
+                            <span className="icon arrow"></span>
+                            </span>
+                            <span className="header__button__text">DONATE</span>
+                        </button> */}
+                    </a>    
+
+                    <div onClick = {handleClick} className='header__icon'>            
                         <button>
                             <MenuIcon style={{ fontSize: 30 }} id= {click ? 'hideIcon':'displayIcon'}/>
                             <CloseIcon style={{ fontSize: 30 }}id= {click ? 'displayIcon':'hideIcon'}/>
