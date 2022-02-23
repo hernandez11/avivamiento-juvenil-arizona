@@ -9,7 +9,7 @@ function AZYouth_Feb19() {
     <div className='event__hero'>
       <span className='hero__subheader'>
           <Subheader__text>PHX, AZ</Subheader__text> 
-          <Subheader__text>2PM - 9PM</Subheader__text> 
+          <Subheader__text>5PM - 7PM</Subheader__text> 
           <Subheader__text>Feb 19, 2022</Subheader__text> 
       </span>
       <Hero__title>AZ<br/>YOUTH<br/>REVIVAL<br/>02.2022</Hero__title>

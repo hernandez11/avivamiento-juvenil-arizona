@@ -27,7 +27,7 @@ function Upcoming() {
             <a href='/monthly-AZYouth-Feb19' className='eventBox__wrapper'>
                 <EventBox date='02.19.2022' title='AZ Youth Revival Service' description='Come join us on our first night of service. Bring a friend or come make new ones!' />
             </a>
-            <a className='eventBox__wrapper empty'>
+            <a href='/monthly-AZYouth-March19' className='eventBox__wrapper'>
                 <EventBox date='03.19.2022' title='AZ Youth Revival Service' description='Deatils coming soon...' />
             </a>
             <a className='eventBox__wrapper empty'>

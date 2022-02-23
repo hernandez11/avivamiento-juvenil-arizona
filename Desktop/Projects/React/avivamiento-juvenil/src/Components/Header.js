@@ -17,7 +17,7 @@ function Header() {
                         <img className='header__logo' src='../ImageAssets/logo__main.png' alt='' />
                     </NavLink>
 
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLScd9OOgzy0j0ovVCecL15abD_MNSUKvXSz747w3P3l3DqRllw/viewform' target="_blank" rel="noopener noreferrer" className='header__links'>
+                    <a className='header__links' href='https://docs.google.com/forms/d/e/1FAIpQLScd9OOgzy0j0ovVCecL15abD_MNSUKvXSz747w3P3l3DqRllw/viewform' target="_blank" rel="noopener noreferrer">
                         <button className="learn-more">
                             <span className="circle" aria-hidden="true">
                             <span className="icon arrow"></span>
