@@ -24,14 +24,11 @@ function Upcoming() {
                 url='./ImageAssets/upcomingEvent__movie.mov'/>
             </div>
 
-            <a href='/monthly-AZYouth-Feb19' className='eventBox__wrapper'>
-                <EventBox date='02.19.2022' title='AZ Youth Revival Service' description='Come join us on our first night of service. Bring a friend or come make new ones!' />
-            </a>
             <a href='/monthly-AZYouth-March19' className='eventBox__wrapper'>
-                <EventBox date='03.19.2022' title='AZ Youth Revival Service' description='Deatils coming soon...' />
+                <EventBox date='03.19.2022' title='AZ Youth Revival Service' description='Join us for our upcoming monthly service' />
             </a>
-            <a className='eventBox__wrapper empty'>
-                <EventBox date='04.16.2022' title='AZ Youth Revival Service' description='Deatils coming soon...' />
+            <a href='/monthly-AZYouth-Apr16' className='eventBox__wrapper'>
+                <EventBox date='04.16.2022' title='AZ Youth Revival Service' description='Brunch Time! Hang out with the AZ Youth Revival team and other youth!' />
             </a>
             <a className='eventBox__wrapper empty'>
                 <EventBox date='05.21.2022' title='AZ Youth Revival Service' description='Deatils coming soon...' />

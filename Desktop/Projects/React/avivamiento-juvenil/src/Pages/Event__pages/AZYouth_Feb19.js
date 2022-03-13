@@ -31,7 +31,7 @@ function AZYouth_Feb19() {
     </div>
 
     <div className='hero__banner'>
-        <p>Join us for ouur first monthly event of the year. We want to share the love of Christ and spread the word to youth across Arizona. Bring a freind or two and join us on this special night! </p>
+        <p>Join us for our first monthly event of the year. We want to share the love of Christ and spread the word to youth across Arizona. Bring a freind or two and join us on this special night! </p>
         <br />
         <br />
         <p>Address: 835 E Southern Ave, Mesa AZ 85204</p>

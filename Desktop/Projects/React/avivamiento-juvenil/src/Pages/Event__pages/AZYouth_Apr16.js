@@ -3,14 +3,14 @@ import ReactPlayer from 'react-player';
 import { Subheader__text, Hero__title } from '../../Components/StyledText.js';
 import ActionBanner from '../../Components/ActionBanner.js';
 
-function AZYouthMar19() {
+function AZYouth_Apr16() {
   return (
     <div>
         <div className='event__hero'>
         <span className='hero__subheader'>
-            <Subheader__text>Tempe, AZ</Subheader__text> 
-            <Subheader__text>5PM - 7PM</Subheader__text> 
-            <Subheader__text>March 19, 2022</Subheader__text> 
+            <Subheader__text>Mesa, AZ</Subheader__text> 
+            <Subheader__text>10AM-12PM</Subheader__text> 
+            <Subheader__text>April 16, 2022</Subheader__text> 
         </span>
         <Hero__title>AZ<br/>YOUTH<br/>REVIVAL<br/>03.19.2022</Hero__title>
         </div>
@@ -18,7 +18,7 @@ function AZYouthMar19() {
         <div className='event__wrapper'>
         <span className='event__container'>
             <hr className='line'/>
-            <small>03.19.2022</small>
+            <small>04.16.2022</small>
             <h4 className='event__title'>AZ YOUTH REVIVAL - 2022</h4>
         </span>
         <span className='event__container'>
@@ -31,7 +31,7 @@ function AZYouthMar19() {
         </div>
 
         <div className='hero__banner'>
-            <p>Come rejoice in our 2nd event of the year. Bring a friend or come make new ones! </p>
+            <p>Hang out with the AZ Youth event team and other youth! Eat great food, chat with friends or make new ones.</p>
             <br />
             <br />
             <p>Address: 450 W 4th PL, Mesa, AZ 85201</p>
@@ -47,4 +47,4 @@ function AZYouthMar19() {
   )
 }
 
-export default AZYouthMar19
+export default AZYouth_Apr16

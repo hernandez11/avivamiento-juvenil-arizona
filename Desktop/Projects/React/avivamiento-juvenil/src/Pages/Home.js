@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styling/Home.css';
-import { Subheader__text, Hero__title, hero__banner__text } from '../Components/StyledText';
+import { Subheader__text, Hero__title } from '../Components/StyledText';
 import Principles from '../Components/Principles';
 import ActionBanner from '../Components/ActionBanner.js';
 

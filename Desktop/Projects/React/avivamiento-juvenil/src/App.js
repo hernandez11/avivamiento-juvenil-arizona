@@ -10,6 +10,7 @@ import PastEvents from './Pages/PastEvents';
 import Upcoming from './Pages/Upcoming';
 import AZYouth_Feb19 from './Pages/Event__pages/AZYouth_Feb19';
 import AZYouthMar19 from './Pages/Event__pages/AZYouthMar19';
+import AZYouth_Apr16 from './Pages/Event__pages/AZYouth_Apr16';
 
 function App() {
   return (
@@ -34,11 +35,14 @@ function App() {
           <Route path='/Meet-The-Founder'>
             <Founder />
           </Route>
-          <Route path='/monthly-AZYouth-Feb19'>
+          <Route path='/events/monthly-AZYouth-Feb19'>
             <AZYouth_Feb19 />
           </Route>
           <Route path='/monthly-AZYouth-March19'>
             <AZYouthMar19 />
+          </Route>
+          <Route path='/monthly-AZYouth-Apr16'>
+            <AZYouth_Apr16 />
           </Route>
         </Switch>
 
